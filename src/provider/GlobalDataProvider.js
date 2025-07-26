@@ -45,7 +45,7 @@ const GlobalData = {
           icon: require("../imgs/landing/linkedin-blue.png"),
         },
         {
-          url: "https://leetcode.com/u/rahul_tallam/",
+          url: "",
           icon: require("../imgs/landing/leetcode.png"),
         },
         {
