@@ -142,7 +142,7 @@ const GlobalData = {
       {
         year: "Nov 2024 - Jun 2025",
         organisation: "Open gig",
-        role: "Software Developer Intern (Volunteer)",
+        role: "Software Development Intern (Volunteer)",
         detail: [
           "AI-Driven Voice Agent – Contributed to the development of an AI-driven agent by integrating speech-to-text and text-to-speech APIs with backend services and Twilio telephony, enabling automated call handling and improving user interaction.",
           "Built FastAPI endpoints, reducing inference latency by ~30% (from 500ms to 350ms) and improving overall system performance.",
@@ -334,38 +334,22 @@ const GlobalData = {
 
 
   // -------------------------------------Blogs Page Data-----------------------------------------
-  blogs: {
-    url: "/blogs",
-    label: "Blogs",
-    cover: require("../imgs/blog/cover.jfif"),
-    summary: `My habit of sharing learnings developed in HSBC where I gave a lot of
-    knowledge transfer sessions. This very habit nurtured my interest in
-    writing technical blogs. Below are the technical blogs that I
-    published with the same intention.`,
-    blogData: [
+  publications: {
+    url: "/publications",
+    label: "Publications",
+    cover: require("../imgs/publications/paper.jpg"), 
+    summary: `My interest in research led me to publish a paper on the convergence of Blockchain and IoT, exploring secure and decentralized communication models for IoT ecosystems. This publication was presented at Springer ICDSMLA 2023.`,
+    pubData: [
       {
-        img: require("../imgs/blog/android.png"),
-        title: "01 Associate Android Developer Certification By Google",
-        link: "https://s-threepio.medium.com/associate-android-developer-certification-by-google-114ab755c187",
-        label: "[Medium]",
-        info: "I explained the process of cracking the Google's android certification exam, interview and the approach for it's preparation. I also created resources for the same purpose",
-      },
-      {
-        img: require("../imgs/blog/docker.png"),
-        title: "02 Docker Overview with React Application",
-        link: "https://s-threepio.medium.com/docker-overview-41a3bbfa19f3",
-        label: "[Medium]",
-        info: "I touched upon the basics of docker and it's advantages. As an add on, I have also explained the process to dockerize a basic react application.",
-      },
-      {
-        img: require("../imgs/blog/crypto.jpg"),
-        title: "03 Crypto Currency Block Chain Application",
-        link: "https://s-threepio.medium.com/creating-a-cryptocurrency-blockchain-app-46d057d9a712",
-        label: "[Medium]",
-        info: "I wrote about the workings of the blockchain technology. I also explained how your own cryptocurrency can be created by using a redis publish subscribe model for peers.",
+        img: require("../imgs/publications/block.png"),
+        title: "Convergence of Blockchain and IoT",
+        link: "https://link.springer.com/chapter/10.1007/978-981-97-8031-0_65", 
+        label: "[Springer]",
+        info: "Proposed blockchain-based solutions to secure decentralized IoT communications, enhancing privacy and resilience in distributed networks. Presented at Springer ICDSMLA 2023.",
       },
     ],
   },
+
 
   // -------------------------------------Certification Page Data-----------------------------------------
   certifications: {
@@ -373,53 +357,20 @@ const GlobalData = {
     label: "Certifications",
     certs: [
       {
-        title: "Hackerrank - Problem Solving Intermediate",
-        date: "June 2023",
-        image: require("../imgs/certs/hackerrank.png"),
-      },
-      {
-        title:
-          "Technologist of the Quarter Award for Outstanding Performance by HSBC",
-        date: "Jan-April 2020",
-        image: require("../imgs/certs/HSBC.png"),
-      },
-      {
-        title: "Google Certified Associate Android Developer",
-        date: "Sep2020-Sep 2023",
-        image: require("../imgs/certs/google.png"),
-      },
-      {
-        title: "AWS Certified Solutions Architect - Associate (SAA)",
-        date: "Feb 2020-Feb 2023",
+        title: "AWS Certified Cloud Practitioner",
+        date: "Jul 2023-Jul 2026",
         image: require("../imgs/certs/aws.png"),
       },
       {
         title: "Machine Learning Certified by Coursera",
-        date: "Jul 2019",
+        date: "Oct 2024",
         image: require("../imgs/certs/cour.png"),
       },
     ],
   },
 
   // -------------------------------------Hobbies Page Data-----------------------------------------
-  hobbies: {
-    url: "/hobbies",
-    label: "Hobbies",
-    hobbyData: [
-      {
-        hobbyname: "Book Reading",
-        img: require("../imgs/hobby/book.webp"),
-        description:
-          "I am an avid reader of fantasy fiction and any book which has an amazing story to tell. In my opinion stories hold a lot power. Layered characters in a wonderful imagination and the decisions they make in a particular situation can tell us a lot about the way of life. My personal opinion : Every book is a self help book because reading is therapy.",
-      },
-      {
-        hobbyname: "Piano",
-        img: require("../imgs/hobby/piano.webp"),
-        description:
-          'Apart from listening to music, I also love to create my own with the beautiful 88 key beast. I compose when I am lucky and I play when I am not busy. I try to incorporate what Beethoven said about music."To play a wrong note is insignificant, but to play without passion is inexcusable."',
-      },
-    ],
-  },
+  
 };
 
 const GlobalDataContext = createContext();

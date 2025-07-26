@@ -5,9 +5,8 @@ import About from "./components/Landing/About.js";
 import Resume from "./components/Resume/Resume.js";
 import Skills from "./components/Skills/Skills.js";
 import Projects from "./components/Projects/Projects.js";
-import Blogs from "./components/Blogs/Blogs.js";
+import Publications from "./components/Publications/Publications.js";
 import Certifications from "./components/Certifications/Certifications.js";
-import Hobbies from "./components/Hobbies/Hobbies.js";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { GlobalDataProvider } from "./provider/GlobalDataProvider.js";
 
@@ -39,8 +38,7 @@ const App = () => {
               <Route path="/resume" element={<Resume />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/projects" element={<Projects />} />
-              <Route path="/blogs" element={<Blogs />} />
-              <Route path="/hobbies" element={<Hobbies />} />
+              <Route path="/publications" element={<Publications />} />
               <Route path="/certifications" element={<Certifications />} />
             </Routes>
             <Footer />

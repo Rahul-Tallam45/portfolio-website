@@ -1,7 +1,7 @@
 import React from "react";
 
-const Blog = (props) => {
-  const { blog, isLast, isEven } = props;
+const Publication = (props) => {
+  const { publication, isLast, isEven } = props;
   return (
     <div>
       <div
@@ -11,21 +11,21 @@ const Blog = (props) => {
         ${!isEven ? "xl:flex-row-reverse" : ""}`}
       >
         <img
-          src={blog.img}
-          alt={blog.title}
+          src={publication.img}
+          alt={publication.title}
           className="object-contain w-[250px] h-[300px] mx-10"
         />
         <div className="flex flex-col gap-10 items-center">
           <div className="text-xl lg:text-3xl font-semibold w-4/5">
-            {blog.title}{" "}
+            {publication.title}{" "}
             <a
-              href={blog.link}
+              href={publication.link}
               className="text-lg lg:text-2xl text-blue-950 font-bold underline"
             >
-              {blog.label}
+              {publication.label}
             </a>
           </div>
-          <div className="w-4/5 text-lg text-justify">{blog.info}</div>
+          <div className="w-4/5 text-lg text-justify">{publication.info}</div>
         </div>
       </div>
       {!isLast && (
@@ -35,4 +35,4 @@ const Blog = (props) => {
   );
 };
 
-export default Blog;
+export default Publication;
