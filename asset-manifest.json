@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.09f5b3cf.css",
+    "main.js": "/portfolio-website/static/js/main.28908ce3.js",
+    "static/js/453.ad7768ec.chunk.js": "/portfolio-website/static/js/453.ad7768ec.chunk.js",
+    "static/media/fire.jpg": "/portfolio-website/static/media/fire.b2bafd323a0f6447bc7e.jpg",
+    "static/media/profile_pic.jpeg": "/portfolio-website/static/media/profile_pic.5b6f3242d95b7c817566.jpeg",
+    "static/media/covid.png": "/portfolio-website/static/media/covid.d7973754df4231ef291b.png",
+    "static/media/Communication.webp": "/portfolio-website/static/media/Communication.337cfb49d5d9d4ff65f1.webp",
+    "static/media/gan.webp": "/portfolio-website/static/media/gan.f7dbb37ce8e583787564.webp",
+    "static/media/creativity.jpg": "/portfolio-website/static/media/creativity.e704ef462c2bc99d7118.jpg",
+    "static/media/food.png": "/portfolio-website/static/media/food.cb4ec6db18f03f4d49d4.png",
+    "static/media/adaptability.jpeg": "/portfolio-website/static/media/adaptability.cff95dac8e89734ac4fb.jpeg",
+    "static/media/lms.jpg": "/portfolio-website/static/media/lms.8f2a0a7dc13a64477127.jpg",
+    "static/media/fraud.png": "/portfolio-website/static/media/fraud.71819ef668d04d9c0c21.png",
+    "static/media/block.png": "/portfolio-website/static/media/block.a0b970a5433bb9779ec2.png",
+    "static/media/teamWork.png": "/portfolio-website/static/media/teamWork.9b90700a9d7c4a25ba56.png",
+    "static/media/paper.jpg": "/portfolio-website/static/media/paper.69b7f707e2dd80129b5e.jpg",
+    "static/media/time.png": "/portfolio-website/static/media/time.c8344006d5b41cc24273.png",
+    "static/media/problemSolving.webp": "/portfolio-website/static/media/problemSolving.02c276b3f3a59ccce2e3.webp",
+    "static/media/medium.png": "/portfolio-website/static/media/medium.d06d71a245db0137e2b2.png",
+    "static/media/github.png": "/portfolio-website/static/media/github.f11021803f68852df283.png",
+    "static/media/education.png": "/portfolio-website/static/media/education.4ef27ed177773c43acfb.png",
+    "static/media/linkedin.png": "/portfolio-website/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/aws.png": "/portfolio-website/static/media/aws.6cb0036db459afd4c454.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.09f5b3cf.css.map": "/portfolio-website/static/css/main.09f5b3cf.css.map",
+    "main.28908ce3.js.map": "/portfolio-website/static/js/main.28908ce3.js.map",
+    "453.ad7768ec.chunk.js.map": "/portfolio-website/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09f5b3cf.css",
+    "static/js/main.28908ce3.js"
+  ]
+}
