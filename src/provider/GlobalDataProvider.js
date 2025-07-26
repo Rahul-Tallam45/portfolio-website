@@ -11,7 +11,7 @@ const GlobalData = {
     header: {
       logo: require("../imgs/landing/education.png"),
       menu: require("../imgs/landing/menu.png"),
-      name: "Swanand Kavitkar",
+      name: "Rahul Tallam",
       degreeShort: "MSCS",
       universityShort: "ASU",
       university: "Arizona State University",
@@ -21,91 +21,80 @@ const GlobalData = {
     footer: {
       socialMediaURLs: [
         {
-          url: "https://www.linkedin.com/in/s-threepio/",
+          url: "https://www.linkedin.com/in/rtallam/",
           icon: require("../imgs/landing/linkedin.png"),
         },
         {
-          url: "https://github.com/S-Threepio",
+          url: "https://github.com/Rahul-Tallam45",
           icon: require("../imgs/landing/github.png"),
         },
         {
-          url: "https://s-threepio.medium.com/",
+          url: "https://medium.com/@tallamrahul123",
           icon: require("../imgs/landing/medium.png"),
         },
       ],
-      copyright: "© 2023 by Swanand Kavitkar",
-      call: "+1 (623) 283-8579",
-      email: "skavitka@asu.edu",
+      call: "+1 (623) 251-9220",
+      email: "rtallam@asu.edu",
     },
 
     // This is the left part of the landing page with profile picture (Looks like an ID Card)
     cardsection: {
       socialMediaURLs: [
         {
-          url: "https://www.linkedin.com/in/s-threepio/",
+          url: "https://www.linkedin.com/in/rtallam/",
           icon: require("../imgs/landing/linkedin-blue.png"),
         },
         {
-          url: "https://leetcode.com/Masked_Yurnero/",
+          url: "https://leetcode.com/u/rahul_tallam/",
           icon: require("../imgs/landing/leetcode.png"),
         },
         {
-          url: "https://s-threepio.medium.com/",
-          icon: require("../imgs/landing/medium.png"),
-        },
-        {
-          url: "https://github.com/S-Threepio",
+          url: "https://github.com/Rahul-Tallam45",
           icon: require("../imgs/landing/github.png"),
         },
       ],
-      pfp: require("../imgs/landing/pfp.jpg"),
-      firstName: "Swanand",
-      lastName: "Kavitkar",
+      pfp: require("../imgs/landing/profile_pic.jpeg"),
+      firstName: "Rahul",
+      lastName: "Tallam",
       degreeShort: "MSCS @ ASU",
-      date: "Graduating May 2024",
+      date: "Graduating May 2026",
     },
 
     // This is the right part of the landing page with a general welcome statement and summary
     bio: {
       bigGreet: "Hello",
-      intro: "I am Swanand and I code.",
+      intro: "I am Rahul and I build solutions.",
       description: (
         <>
           <p>
             I am currently pursuing a Master's degree in{" "}
             <b className="font-semibold">
-              {" "}
               Computer Science at Arizona State University.
             </b>{" "}
-            Previously, I worked as a{" "}
-            <b className="font-semibold">Software Engineer at HSBC,</b> where I
-            played a crucial role in developing{" "}
+            I have a strong background in{" "}
+            <b className="font-semibold">AI, Machine Learning, and Full‑Stack Development,</b>{" "}
+            with hands-on experience in building scalable applications and integrating{" "}
+            <b className="font-semibold">cloud technologies like AWS and Azure.</b>
+            <br />
+            <br />
+            My previous projects include{" "}
             <b className="font-semibold">
-              feature-rich mobile banking applications
-            </b>{" "}
-            to enhance customer experience and{" "}
-            <b className="font-semibold">optimize transactions.</b> With a solid
-            background in{" "}
-            <b className="font-semibold">Web and Android development</b>, I
-            possess expertise in{" "}
-            <b className="font-semibold">AWS Cloud services.</b>
+              AI-driven virtual try-on systems, fraud detection solutions, and data visualization pipelines
+            </b>, where I focused on both technical implementation and user-centric design.
             <br />
             <br />
             <b className="font-semibold">
-              I am actively pursuing full-time software engineer opportunities
+              I am actively looking for internship and full-time opportunities
             </b>{" "}
-            to utilize my exceptional academic achievements and hands-on
-            experience, aiming to create significant contributions within the
-            technology industry.
+            in software engineering, AI/ML, or cloud development roles to apply my skills and
+            contribute to impactful products.
             <br />
-            <br /> If you are seeking someone to{" "}
-            <b className="font-semibold">
-              build scalable and high-quality software products,
-            </b>{" "}
-            feel free to reach out to me on phone/email mentioned below.
+            <br />
+            If you’re interested in collaborating or learning more about my work, feel free
+            to reach out via the contact details below.
           </p>
           <br />
-          <b className="font-semibold">Have a great day!!</b>
+          <b className="font-semibold">Thanks for visiting!</b>
         </>
       ),
     },
@@ -117,54 +106,66 @@ const GlobalData = {
     label: "Resume",
     summary: (
       <>
-        Throughout my career, I have contributed to positive business results
-        through effective organization, prioritization and follow-through of key
-        organizational projects.
+        I am a graduate student in{" "}
+        <b className="font-semibold">Computer Science at Arizona State University</b>{" "}
+        with a strong foundation in{" "}
+        <b className="font-semibold">AI, Machine Learning, and Full-Stack Development</b>.  
+        My experience spans across building{" "}
+        <b className="font-semibold">AI-driven applications, scalable cloud solutions,</b> and
+        optimizing backend systems for better performance.
         <br />
-        As a Software developer I have always exercised a calculated and
-        methodical approach to problem-solving. While I am independently
-        motivated, I appreciate collective efforts and collaborate productively
-        within group settings. To illustrate the scope of my career history and
-        professional competencies, please take a moment to review my enclosed
-        resume.
+        I have contributed to impactful projects such as{" "}
+        <b className="font-semibold">virtual try-on systems, fraud detection pipelines, and
+        AI-powered trip planners</b>, leveraging technologies like{" "}
+        <b className="font-semibold">React.js, FastAPI, AWS, Docker, and LLMs</b>.
+        <br />
+        Please review my enclosed resume for details on my projects, technical expertise, and professional experience.
       </>
     ),
     education: [
       {
-        year: "2022-2024",
+        year: "2024-2026",
         university: "Arizona State University",
         gpa: "4.0",
-        info: " I am currently enrolled at the Master of Science program in Computer Science at the Arizona State University. My coursework includes Cloud Computing, Distributed Database Systems, Machine Learning Fairness and Security.",
+        info: " I am currently enrolled at the Master of Science program in Computer Science at the Arizona State University. My coursework includes Cloud Computing, Statistical Machine Learning, and Data Mining.",
       },
       {
-        year: "2015-2019",
-        university: "Vishwakarma Institute of Technology",
-        gpa: "3.98",
-        info: `I acquired my Bachelor of Technology degree in Computer Engineering from the Vishwakarma Institute of Technology. The
+        year: "2020-2024",
+        university: "Vellore Institute of Technology",
+        gpa: "3.6",
+        info: `I acquired my Bachelor of Technology degree in Computer Science and Engineering from the Vellore Institute of Technology. The
     relevant coursework included Data Structures, Design and Analysis
     of Algorithms, Web Technologies etc.`,
       },
     ],
     work: [
       {
-        year: "August 2022 - Current",
-        organisation: "Arizona State University",
-        role: "Graduate Service Assistant",
+        year: "Nov 2024 - Jun 2025",
+        organisation: "Open gig",
+        role: "Software Developer Intern (Volunteer)",
         detail: [
-          "I am currently working as a graduate service assistant for the CSE 434 : Computer networks.",
-          "My responsibilities include grading the assignments, labs and projects submitted by the students as well as resolving their queries related to grading",
+          "AI-Driven Voice Agent – Contributed to the development of an AI-driven agent by integrating speech-to-text and text-to-speech APIs with backend services and Twilio telephony, enabling automated call handling and improving user interaction.",
+          "Built FastAPI endpoints, reducing inference latency by ~30% (from 500ms to 350ms) and improving overall system performance.",
+          "Virtual Cloth Try-On – Developed a generative AI pipeline for virtual cloth try-on, leveraging FLUX LoRA for model generation and diffusion-based CAT-VTON to overlay products onto AI-generated human images, reducing manual adjustments by 30%.",
+          "Engineered an Agentic AI-powered marketing copilot using OpenAI’s API and Vercel’s AI SDK to autonomously generate campaign hooks, captions, and CTAs, cutting content creation time by ~40%. Containerized the entire pipeline with Docker and deployed on Azure Container apps, enabling scalable cloud execution and integrating with a React-based dashboard for seamless content management.",
         ],
       },
       {
-        year: "July 2019 - May 2021",
-        organisation: "HSBC Software Development India",
-        role: "Software Engineer",
+        year: "Jan 2024 - May 2024",
+        organisation: "Kopen Software Solutions",
+        role: "Software Development Intern",
         detail: [
-          "Built the HSBC Oman mobile banking app with 7 separate journeys involving payments and QR code features to deliver the regulatory requirements for Oman HSBC customers",
-          "Designed the architecture for Oman features to make them entity wise scalable using JSON objects as input configuration",
-          "Integrated features of Oman, Qatar and India into the HSBC’s global application spanning 60 countries with more than 20 modules to standardize all the developed functionalities",
-          "Refactored the Cheque deposit journeys of UK entity to align it with the MVP architecture with potential 60% code reduction in view fragments",
-          "Maintained the UI and Unit test coverage of 90% for all the features developed, to confirm that the different features within the HSBC global application are performing as expected",
+          "Collaborated with backend engineers to design and implement a Python-based chatbot leveraging transformer architecture, reducing manual support by 35% and improving response speed by 20%.",
+          "Coordinated with cross-functional team members to orchestrate RESTful APIs backed by MySQL, applying query indexing and revamping data workflows to reduce server latency by 15%.",
+        ],
+      },
+      {
+        year: "May 2023 - Jul 2023",
+        organisation: "SmartInternz",
+        role: "Software Development Intern",
+        detail: [
+          "Built a full-stack food ordering application using ReactJS and Spring boot, achieving a 25% decrease in load times and improving data retrieval.",
+          "Containerized the application with Docker and orchestrated using Kubernetes, ensuring high availability and efficient scaling. Collaborated on CI/CD pipelines, streamlining development workflows and cutting deployment time by 40%.",
         ],
       },
     ],
@@ -177,63 +178,59 @@ const GlobalData = {
     tech: [
       {
         type: "Programming Languages",
-        info: "Python, Java, Kotlin, C++, C, Javascript",
-      },
-      {
-        type: "Android Development",
-        info: "MVVM, Jetpack components, LiveData, RxJava, Retrofit, Kotlin Coroutines, View and Data Binding",
+        info: "Python, Java, C++, C, Javascript",
       },
       {
         type: "Web Technology",
-        info: "ReactJS, CSS, Tailwind CSS, Bootstrap, Jquery",
+        info: "ReactJS, CSS, Tailwind CSS, Bootstrap, NextJS, HTML",
       },
       {
         type: "Backend",
-        info: "Spring, SpringBoot, Hibernate, ExpressJS, NodeJS",
+        info: "Spring, SpringBoot, FastAPI, Django, Flask, NodeJS",
       },
       {
-        type: "AWS Cloud",
-        info: "S3, Dynamo-DB, API-Gateway, Lambda, Transcribe, Comprehend, Cognito",
+        type: "Cloud & DevOps",
+        info: "Amazon Web Services, GCP, Azure, Docker, Kubernetes, Google Kubernetes Engine, Git, Jenkins, CI/CD",
       },
       {
-        type: "Containerization",
-        info: "Docker, Vagrant, WSL2",
+        type: "AI/ML",
+        info: "Generative AI, LLMs, RAGs, PyTorch, TensorFlow, Scikit-learn, NLP (Transformers), OpenCV, Pandas, Reinforcement Learning",
       },
       {
         type: "Software Development Practices",
-        info: "Agile, Scrum, JIRA, Confluence, Github",
+        info: "Agile, Scrum, JIRA, Github",
       },
     ],
     soft: [
       {
         img: require("../imgs/skills/soft/teamWork.png"),
         type: "Team Work",
-        info: "Worked on the HSBC Oman and Qatar app with a team consisting of freshers and completed all the requirements with highest level of collaboration. I have repeatedly partenered with senior developers outside my team to resolve global level build issues",
+        info: "Collaborated with cross-functional teams at Open Gig and Kopen Software to build AI-driven and backend solutions. Actively partnered with engineers and product teams to integrate APIs, optimize workflows, and deliver project milestones ahead of deadlines.",
       },
       {
         img: require("../imgs/skills/soft/adaptability.jpeg"),
         type: "Adaptibility",
-        info: "I was trained in full stack however the project assigned in HSBC was of Android. I adapted to it within a week and started contributing by the first month.I was the first in the department to complete the Google's Android certification requested by HSBC.",
+        info: "Transitioned seamlessly between multiple tech stacks like FastAPI, React.js, Flask, and Kubernetes across different internships and academic projects. Adapted quickly to new frameworks like FLUX LoRA and CAT-VTON while working on generative AI pipelines.",
       },
       {
         img: require("../imgs/skills/soft/Communication.webp"),
         type: "Communication",
-        info: "Communicated with the stakeholders from Oman and Qatar whilst giving demo for the sprint work every alternate week. I also took alot of knowledge tranfer sessions to educate others about the codebase and various technologies.",
+        info: "Regularly presented project updates and demos to stakeholders during internships. Conducted knowledge transfer sessions for peers on AI model integration, deployment workflows, and cloud-native development best practices.",
       },
       {
         img: require("../imgs/skills/soft/problemSolving.webp"),
         type: "Problem Solving",
-        info: "I worked on making a QR Code module configurable while it was live in production for two other entites. I also helped a different team to merge their codebase into our exisiting live modules, resolved issues during the integration and provided robust alternatives.",
+        info: "Improved AI voice agent latency by ~30% at Open Gig through optimized API handling. Engineered solutions for integrating marketing copilot and virtual try-on pipelines, reducing manual effort by up to 40% and resolving deployment bottlenecks.",
       },
       {
         img: require("../imgs/skills/soft/creativity.jpg"),
         type: "Creativity",
-        info: "During Covid 19 period the Thank you tree weekly activity was closed off due to work from home compulsion. Created an application to resume the activity and increase employee morale. I also took creative design decisions to make the applications entity wise configurable.",
+        info: "Designed an AI-powered trip planner leveraging Gemini API and Firebase, generating personalized itineraries with minimal user input. Incorporated LLM-based summarization and transcription in an LMS to enhance user learning experience.",
       },
       {
         img: require("../imgs/skills/soft/time.png"),
         type: "Time Management",
-        info: "I worked on the project which had regulatory requirement and had a strict timeline for completion. My team was downsized by one during Covid-19 outbreak but I still delivered all the requirements in time.",
+        info: "Balanced multiple concurrent projects during internships and graduate coursework, meeting tight deadlines for deliverables including fraud detection pipelines, AI integrations, and data visualization tasks without compromising quality.",
       },
     ],
   },
@@ -244,216 +241,97 @@ const GlobalData = {
     label: "Projects",
     projData: [
       {
-        img: require("../imgs/projects/attendance_tracker.jpg"),
-        title: "Automated Attendance Tracker",
-        type: ["aws", "backend"],
-        link: "https://github.com/S-Threepio/Classroom-Attendance-Tracker",
-        year: "May 2023",
+        img: require("../imgs/projects/lms.jpg"),
+        title: "Learning Management System",
+        link: "https://github.com/Rahul-Tallam45/lms", 
+        year: "2025",
         points: [
-          ` Engineered a classroom assistant tool by creating a private cloud infrastructure using Openstack, enabling educators
-          to effortlessly manage student progress and assignments, resulting in a 40% reduction in administrative workload.
-          `,
-          `Incorporated AWS Lambda, S3, and DynamoDB to enhance accuracy and efficiency by 25% in real-time student
-          identification while handling 100 concurrent requests within 60 seconds.`,
+          `Conceptualized an interactive MERN-based LMS with 10+ core modules including authentication, course creation, and Stripe payments.`,
+          `Integrated AI features such as Whisper for video transcription, GPT-4 for summarization, and an LLM-based doubt-solving agent, reducing manual note-taking by 80% and improving query resolution speed by 70%.`
         ],
-        tech: [
-          "Openstack",
-          "AWS Lambda",
-          "AWS S3",
-          "AWS DynamoDB",
-          "AWS SQS",
-          "AWS ECR",
-          "Docker",
-        ],
+        tech: ["MongoDB", "Express", "React", "Node.js", "Whisper", "GPT-4", "Stripe"]
       },
       {
-        img: require("../imgs/projects/port.png"),
-        title: "Morpholio : The Portfolio Builder",
-        link: "https://github.com/S-Threepio/S-Threepio.github.io",
-        year: "January 2023",
-        type: ["frontend"],
+        img: require("../imgs/projects/fraud.png"),
+        title: "Fraud Detection in Banking Data using Ensemble Techniques",
+        link: "https://github.com/Rahul-Tallam45/Fraud-Detection-in-Banking-Data-using-Ensemble-Techniques",
+        year: "2024",
         points: [
-          `Designed an innovative personal website builder using ReactJS and Tailwind CSS, resulting in a 50% reduction in
-          development time and a 60% increase in user satisfaction.`,
-          `Optimized website performance by implementing React Hooks and Context API, enabling seamless data sharing across
-          components and enhancing user experience`,
+          `Evaluated LightGBM, XGBoost, CatBoost, and Stacking Classifier models for imbalanced credit-card datasets with Bayesian Optimization to enhance accuracy by 10%.`,
+          `Built a Flask-based web interface for real-time predictions, ensuring intuitive navigation and enhanced user experience.`
         ],
-        tech: ["React", "Javascript", "React Hooks", "Tailwind CSS"],
+        tech: ["LightGBM", "XGBoost", "CatBoost", "Flask", "Bayesian Optimization", "Python"]
       },
       {
-        img: require("../imgs/projects/digit.png"),
-        title: " Handwritten Digits Classifier Flask Application",
-        link: "https://github.com/S-Threepio/Handwritten-Digits-Classifier-Flask-Application",
-        year: "November 2022",
-        type: ["aws", "backend"],
+        img: require("../imgs/projects/ai.jpeg"),
+        title: "Comparative AI-Trip Planner Web Application",
+        link: "https://github.com/Rahul-Tallam45/ai-trip-planner",
+        year: "2025",
         points: [
-          `Developed an ML application for handwritten digits classification, using Flask server and Docker for seamless deployment.`,
-          `Utilized Kubernetes clusters on AWS EKS and GCP GKE for streamlined deployment.`,
-          `Integrated Prometheus monitoring using Helm-charts for performance monitoring`,
+          `Developed an AI-powered trip planner using React.js, Gemini API, and Firebase to generate personalized itineraries and hotel suggestions.`,
+          `Cut manual planning effort by 60% and deployed on Vercel with serverless architecture for scalability.`
         ],
-        tech: [
-          "Kubernetes",
-          "Docker",
-          "AWS EKS",
-          "AWS EC2",
-          "GCP GKE",
-          "Prometheus",
-          "Helm",
-        ],
+        tech: ["React.js", "Gemini API", "Firebase", "Vercel"]
       },
       {
-        img: require("../imgs/projects/meeting.png"),
-        title: "Meeting Assistant Web App",
-        link: "https://github.com/S-Threepio/voyager-react",
-        year: "November 2020",
-        type: ["aws", "frontend"],
+        img: require("../imgs/projects/covid.png"),
+        title: "PharmaZilla: Online Healthcare Delivery Platform",
+        link: "https://github.com/Rahul-Tallam45/pharmazilla",
+        year: "2022",
         points: [
-          `Created meeting assistant web app with speech-to-text transcription, meeting recording analysis and MoM generation
-          increasing productivity by 55%.`,
-          `Leveraged ReactJS and Material UI for a seamless user experience, a 20% increase in user retention`,
-          `Integrated AWS services for transcription,analysis, storage and security achieving 87% performance improvement.`,
+          `Built a medicine ordering and delivery platform connecting patients with local pharmacies using HTML, CSS, and JavaScript.`,
+          `Implemented backend with PHP and MySQL to manage 100+ products and improved user experience with AJAX-based dynamic content updates and a Coronavirus self-health checker.`
         ],
-        tech: [
-          "React",
-          "Material UI",
-          "AWS Cognito",
-          "AWS Transcribe",
-          "AWS Comprehend",
-          "AWS Lambda",
-          "AWS S3",
-          "AWS Lambda",
-          "AWS DynamoDB",
-          "AWS API Gateway",
-        ],
+        tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "AJAX"]
       },
       {
-        img: require("../imgs/projects/custody.jpg"),
-        title: "Computer Forensics: Chain of Custody",
-        type: ["blockchain"],
-        link: "https://github.com/S-Threepio/CSE469-project/tree/main",
-        year: "October 2022",
+        img: require("../imgs/projects/fire.jpg"),
+        title: "Fire and Smoke Detection System",
+        link: "https://github.com/Rahul-Tallam45/Fire-and-Smoke-Detection-System",
+        year: "2023",
         points: [
-          "Created a digital equivalent to a chain of custody to record the history of the evidence from the time it is found until the case is closed.",
-          "Utilized SHA-256 functions to maintain the validity of the custody chain and maintain the zero trust policy.",
+          `Developed a CNN-based model to detect fire and smoke from 1000+ images, achieving 98% accuracy and reducing quality control issues by 40%.`,
+          `Integrated Arduino-based real-time alert system, improving responsiveness in high-risk environments and increasing user engagement by 40%.`
         ],
-        tech: [
-          "Python",
-          "C++",
-          "Bash Scripting",
-          "Blockchain",
-          "MultiThreading",
-          "SHA256 Encryption",
-        ],
+        tech: ["CNN", "Python", "Arduino", "Deep Learning"]
       },
       {
-        img: require("../imgs/projects/blockchain.jpg"),
-        title: "Web Application for Crypto-Currency",
-        link: "https://github.com/s-threepio/cryptochain",
-        year: "March 2019",
-        type: ["blockchain", "frontend", "backend"],
+        img: require("../imgs/projects/rl.png"),
+        title: "Reinforcement Learning Framework for Multi-Level Intrusion Detection Systems",
+        link: "https://github.com/Rahul-Tallam45/rl-ids",
+        year: "2024",
         points: [
-          "Created a web application for a cryptocurrency network backed by a blockchain including private wallets for users and miners.",
-          "Dockerized the whole application using WSL2 and Docker to create separate containers for users,miners and redis server to establish separation of concerns",
+          `Developed an intrusion detection system integrating Deep Q-Network with transfer learning, reducing training time by 30% and improving detection accuracy.`,
+          `Enhanced multi-class attack detection by 15% using feature engineering and a Multi-View Classifier ensemble.`
         ],
-        tech: [
-          "Javascript",
-          "Redis",
-          "ExpressJS",
-          "Node.JS",
-          "Docker",
-          "WSL2",
-          "React",
-          "Material UI",
-          "SHA256 Encryption",
-        ],
+        tech: ["Reinforcement Learning", "DQN", "Python", "Transfer Learning"]
       },
       {
-        img: require("../imgs/projects/ai.png"),
-        title: "Guardian Angel Mobile Application",
-        link: "https://github.com/S-Threepio/Guardian-Angel-Mobile-Application",
-        year: "October 2023",
-        type: ["mobile", "backend"],
+        img: require("../imgs/projects/food.png"),
+        title: "Full-Stack Food Ordering Application",
+        link: "https://github.com/Rahul-Tallam45/Food-Ordering-System", 
+        year: "2023",
         points: [
-          "Created a Guardian Angel application which can Send an Email, Schedule a Task, Play music based on your mood and Summarize Texts.",
-          "Utilizes OpenAI GPT to analyze and interpret the nature or category of the user's request.",
+          `Built a full-stack food ordering application using ReactJS and Spring Boot, reducing load times by 25% and improving data retrieval efficiency.`,
+          `Containerized the application with Docker and orchestrated with Kubernetes for high availability and scaling.`,
+          `Collaborated on CI/CD pipelines to streamline development workflows, cutting deployment time by 40%.`
         ],
-        tech: [
-          "Android",
-          "OpenAI GPT ",
-          "Flask",
-          "MVVM",
-          "View Binding",
-          "Kotlin Coroutines",
-          "Spotify API",
-        ],
+        tech: ["ReactJS", "Spring Boot", "Docker", "Kubernetes", "CI/CD"]
       },
       {
-        img: require("../imgs/projects/TYT.png"),
-        title: "Thank You Tree Android App",
-        link: "https://github.com/S-Threepio/thank_you_tree_app",
-        year: "January 2020",
-        type: ["mobile", "aws"],
+        img: require("../imgs/projects/gan.webp"),
+        title: "Comparative Analysis of GAN-Based Image Inpainting",
+        link: "https://github.com/Rahul-Tallam45/gan-inpainting",
+        year: "2024",
         points: [
-          "Created a thank you tree android app for users to thank their colleagues online as a part of Great place to work initiative.",
-          "Designed the CRUD features on thank you notes and a dashboard for a reward based system at HSBC as well as share receipt functionality.",
-          "Made with Jetpack components and a robust MVVM Architecture with robust AWS backend.",
+          `Compared AOT-GAN with a baseline GAN on the Places2 dataset, achieving 20% improvement in SSIM/PSNR and 25% lower FID score.`,
+          `Significantly improved image reconstruction quality for image inpainting tasks.`
         ],
-        tech: [
-          "Android",
-          "RxJava",
-          "MVVM",
-          "Jetpack Compose",
-          "LiveData",
-          "View Binding",
-          "Kotlin Coroutines",
-          "AWS S3",
-          "AWS Dynamo DB",
-          "AWS API Gateway",
-        ],
-      },
-      {
-        img: require("../imgs/projects/health.png"),
-        title: "Health Monitoring Application",
-        link: "https://github.com/S-Threepio/Health-Monitoring-Application",
-        year: "December 2023",
-        type: ["mobile"],
-        points: [
-          "Delivered a Health Monitoring Application achieving 95% accuracy in heart rate calculation through red intensity pixel analysis.",
-          "Utilized accelerometer algorithms for respiratory rate determination with 98% precision.",
-          "Leveraged Room DB for efficient data storage, reducing application response time by 20%.",
-        ],
-        tech: [
-          "Android",
-          "MVVM",
-          "Jetpack Compose",
-          "Service",
-          "View Binding",
-          "Kotlin Coroutines",
-        ],
-      },
-
-      {
-        img: require("../imgs/projects/utility.webp"),
-        title: "Utility Application Android",
-        link: "https://github.com/S-Threepio/UtilityApplication",
-        year: "June 2020",
-        type: ["mobile"],
-        points: [
-          "Combined the most commonly used elements in android development into a single application to study them comparitively.",
-          "I have also implemented architecture patterns to familiarize students with separation of concerns",
-        ],
-        tech: [
-          "Android",
-          "MVVM",
-          "Asynchronous Task",
-          "API call handling",
-          "Broadcast",
-          "Shared Preferences",
-          "Room Database Implementation",
-        ],
+        tech: ["GAN", "AOT-GAN", "PyTorch", "Deep Learning"]
       },
     ],
   },
+
 
   // -------------------------------------Blogs Page Data-----------------------------------------
   blogs: {

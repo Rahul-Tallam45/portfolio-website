@@ -1,3 +1,34 @@
+import React, { useContext } from "react";
+import Project from "./Project";
+import { GlobalDataContext } from "../../provider/GlobalDataProvider";
+
+const Projects = () => {
+  const projData = useContext(GlobalDataContext).projects.projData;
+
+  return (
+    <div className="flex flex-col flex-1 sm:overflow-y-scroll scrollbar-hide pb-4 md:pb-0">
+      <div className="flex justify-center w-full bg-primary">
+        <div className="flex flex-col items-center lg:items-start sm:m-2">
+          <div className="my-8 text-5xl font-bold text-center w-screen">
+            Projects
+          </div>
+
+          {/* Removed category filter buttons */}
+
+          <div className="grid px-2 self-center overflow-y-scroll scrollbar-hide w-[90%] sm:px-20 lg:grid-cols-2 ">
+            {projData.map((project, index) => (
+              <Project key={index} data={project} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
+
+/*
 import React, { useContext, useState } from "react";
 import Project from "./Project";
 import { GlobalDataContext } from "../../provider/GlobalDataProvider";
@@ -40,3 +71,4 @@ const Projects = () => {
 };
 
 export default Projects;
+*/
