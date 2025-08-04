@@ -264,7 +264,7 @@ const GlobalData = {
       },
       {
         img: require("../imgs/projects/ai.jpeg"),
-        title: "Comparative AI-Trip Planner Web Application",
+        title: "AI-Trip Planner Web Application",
         link: "https://github.com/Rahul-Tallam45/ai-trip-planner",
         year: "2025",
         points: [
